@@ -7,7 +7,7 @@ body{
 }
 
 p{
-    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-family:comic 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
 figure{
@@ -29,6 +29,21 @@ img{
     color: black;
 }
 
+table{
+    border: 3px solid rgba(128, 128, 128, 0.582);
+    border-collapse: collapse;
+}
+
+td{
+    text-align: center;
+    border: 3px solid  rgba(128, 128, 128, 0.582);
+}
+
+th{
+    text-align: center;
+    border: 3px solid rgba(128, 128, 128, 0.582);
+}
+
 h1{
     padding-bottom: 2%;
     border-bottom: 5px solid rgb(102, 170, 233);
@@ -47,7 +62,17 @@ a{
 ol.heather{
     border: 1px solid #000;
     list-style: none;
+}
 
+ol.nav1{
+    border: 1px solid #000;
+    list-style: none;
+}
+
+li.linav{
+    color: black;
+    font-weight: bold;
+    list-style: none;
 }
 
 li.liheather{

@@ -1,55 +1,57 @@
 body{
-    margin: auto;
-    background-color:aliceblue;
-    width: 1000px;
-    text-align: justify;
-    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    border-style: solid;
-    border-collapse:collapse;
-    padding: 15px;
+    border: 1px solid #000;
+    width: 80%;
+    margin: 0 auto;
+    background-color: aliceblue;
+    padding: 5%;
 }
 
-main{
-    float:initial;
+p{
+    font-family:Georgia, 'Times New Roman', Times, serif;
 }
-img{
+
+figure{
     text-align: center;
-    width: 250px;
-    height: 280px;
 }
 
-h1{
-    color: darkblue;
+img{
+    width: 30%;
+    height: 20%;
 }
 
-h2{
-    color:darkblue;
-    text-decoration: underline darkblue 2px;
-}
-
-a{
-    text-decoration: none;
+.linav{
+    padding: 0%;
+    display: inline-block;
+    width: 25%;
+    height: 50%;
+    background-color: rgb(102, 170, 233);
+    text-align: center;
     color: black;
 }
 
-div{
-    text-align: center;
+h1{
+    padding-bottom: 2%;
+    border-bottom: 5px solid rgb(102, 170, 233);
 }
 
-.heather{
+h2{
+    color: black;
+    text-decoration: underline solid black 3px;
+}
+
+a{
+    color: black;
+    text-decoration: none;
+}
+
+ol.heather{
+    border: 1px solid #000;
     list-style: none;
-    padding: 0%;
+
 }
 
-.liheather{
-    display: inline-block;
-    background-color:rgb(75, 212, 201);
-    text-align: center;
-    width: 25%;
-}
-
-p#separador{
-    color:aliceblue;
-    background-color: rgb(11, 94, 142);
-    height: 1px;
+li.liheather{
+    color: black;
+    font-weight: bold;
+    list-style: none;
 }

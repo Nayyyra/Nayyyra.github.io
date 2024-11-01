@@ -4,6 +4,7 @@ body{
     margin: 0 auto;
     background-color: aliceblue;
     padding: 5%;
+    font-size: 18px;
 }
 
 p{
@@ -19,14 +20,17 @@ img{
     height: 20%;
 }
 
-.linav{
-    padding: 0%;
+li.linav{
     display: inline-block;
-    width: 25%;
-    height: 50%;
+    width: 300px;
+    height: 30px;
+    padding-top: 10px;
     background-color: rgb(102, 170, 233);
     text-align: center;
     color: black;
+    font-size: 20px;
+    font-weight: bold;
+    list-style: none;
 }
 
 table{
@@ -52,6 +56,7 @@ h1{
 h2{
     color: black;
     text-decoration: underline solid black 3px;
+    background-color: rgba(225, 146, 241, 0.922);
 }
 
 a{
@@ -62,21 +67,34 @@ a{
 ol.heather{
     border: 1px solid #000;
     list-style: none;
+    margin: 0 auto;
+    padding: 0%;
+    width: 100px;
 }
 
 ol.nav1{
     border: 1px solid #000;
     list-style: none;
-}
-
-li.linav{
-    color: black;
-    font-weight: bold;
-    list-style: none;
+    padding-left: 0%;
+    margin-top: 0 auto;
+    width: 1200px;
+    height: 40px;
 }
 
 li.liheather{
     color: black;
     font-weight: bold;
     list-style: none;
+}
+
+footer{
+    text-align: right;
+}
+
+li.linav:hover{
+    background-color: rgb(83, 22, 215);
+}
+
+a.enlacesnav:hover{
+    color: aliceblue;
 }

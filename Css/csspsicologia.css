@@ -1,3 +1,10 @@
+@font-face {
+    font-family: "Outfit", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+}
+
 body{
     border: 1px solid #000;
     width: 80%;
@@ -5,6 +12,7 @@ body{
     background-color: aliceblue;
     padding: 5%;
     font-size: 18px;
+    font-family: "Outfit", sans-serif;
 }
 
 p{

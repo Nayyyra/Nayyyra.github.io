@@ -1,0 +1,43 @@
+@font-face {
+    font-family: "Itim", cursive;
+    font-weight: 400;
+    font-style: normal;
+}
+
+body{
+    border: 1px solid #000;
+    width: 80%;
+    margin: 0 auto;
+    background-color: aliceblue;
+    padding: 5%;
+    font-size: 18px;
+    font-family: "Outfit", sans-serif;
+}
+
+li.linav{
+    display: inline-block;
+    width: 25%;
+    height: 30px;
+    padding-top: 10px;
+    background-color: rgb(102, 170, 233);
+    text-align: center;
+    color: black;
+    font-size: 15px;
+    font-weight: bold;
+    list-style: none;
+}
+
+ol.nav1{
+    border: 1px solid #000;
+    list-style: none;
+    padding-left: 0%;
+    margin-top: 0 auto;
+}
+
+li.linav:hover{
+    background-color: rgb(83, 22, 215);
+}
+
+a.enlacesnav:hover{
+    color: aliceblue;
+}

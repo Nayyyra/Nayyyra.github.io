@@ -7,6 +7,12 @@
 body{
     font-family: "Itim", cursive;
     background-color: aliceblue;
+    border: 1px solid #000;
+    width: 80%;
+    margin: 0 auto;
+    padding: 5%;
+    font-size: 18px;
+    font-style: normal;
 }
 
 li.linav{
@@ -17,7 +23,7 @@ li.linav{
     background-color: rgb(102, 170, 233);
     text-align: center;
     color: black;
-    font-size: 20px;
+    font-size: 15px;
     font-weight: bold;
     list-style: none;
 }

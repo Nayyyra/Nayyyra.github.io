@@ -41,13 +41,6 @@ li.linav{
     list-style: none;
 }
 
-@media screen and (max-width: 800px) {
-    li.linav{
-        width: 100%;
-        display: block;
-    }
-}
-
 table{
     border: 3px solid rgba(128, 128, 128, 0.582);
     border-collapse: collapse;
@@ -92,6 +85,7 @@ ol.nav1{
     list-style: none;
     padding-left: 0%;
     margin-top: 0 auto;
+    height: 40px;
 }
 
 li.liheather{

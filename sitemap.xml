@@ -9,9 +9,26 @@
 
 <url>
   <loc>https://nayyyra.github.io/</loc>
-  <lastmod>2024-11-6T07:27:15+02:00</lastmod>
+  <lastmod>2024-12-6T07:27:15+02:00</lastmod>
   <priority>1.00</priority>
 </url>
 
+<url>
+      <loc>https://nayyyra.github.io/Enlaces/enlaces-de-interes.html</loc>
+  <lastmod>2024-12-6T07:27:15+02:00</lastmod>
+  <priority>0.8</priority>
+</url>
 
+<url>
+      <loc>https://nayyyra.github.io/Html/quieres-estudiar-psicologia.html</loc>
+  <lastmod>2024-12-6T07:27:15+02:00</lastmod>
+  <priority>0.8</priority>
+</url>
+
+<url>
+      <loc>https://nayyyra.github.io/Html/psicofarmacos.html</loc>
+  <lastmod>2024-12-6T07:27:15+02:00</lastmod>
+  <priority>0.8</priority>
+</url>
+      
 </urlset>

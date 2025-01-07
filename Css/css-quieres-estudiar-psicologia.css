@@ -46,3 +46,16 @@ li.linav:hover{
 a.enlacesnav:hover{
     color: aliceblue;
 }
+
+header ol li a{
+    text-decoration: none;
+    color: #000;
+}
+
+header>ol li a:hover{
+    background-color: rgb(66, 149, 243);
+}
+
+header ol li{
+    list-style:initial;
+}

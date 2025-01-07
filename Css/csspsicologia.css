@@ -72,6 +72,10 @@ a{
     text-decoration: none;
 }
 
+a.enfermedades:hover{
+    background-color:rgb(66, 149, 243);
+}
+
 ol.heather{
     border: 1px solid #000;
     list-style: none;

@@ -110,6 +110,97 @@ a.enlacesnav:hover{
     color: aliceblue;
 }
 
+/*Formulario*/
+fieldset{
+    border: 3px solid rgba(128, 128, 128, 0.582);
+}
+
+legend{
+    font-weight: bold;
+}
+
+/*Primer fieldset*/
+form fieldset:nth-of-type(1) label{
+    display: inline-block;
+    width: 80px;
+    padding-left: 100px;
+}
+
+form fieldset:nth-of-type(1) label:nth-of-type(2){
+    padding-left: 100px;
+}
+
+form fieldset:nth-of-type(1) label:nth-of-type(3){
+    padding-left: 100px;
+    width: 50px;
+}
+
+/*Segundo fieldset*/
+form fieldset:nth-of-type(2) label{
+    width: 80px;
+    padding-left: 100px;
+}
+
+form fieldset:nth-of-type(2) label:nth-of-type(2){
+    padding-left: 200px;
+}
+
+form fieldset:nth-of-type(2) label:nth-of-type(3){
+    padding-left: 100px;
+}
+
+form fieldset:nth-of-type(2) input:nth-of-type(2){
+    margin-top: 20px;
+    width: 300px;
+}
+
+form fieldset:nth-of-type(2) input:nth-of-type(3){
+    margin-top: 20px;
+    width: 236px;
+}
+
+form fieldset:nth-of-type(2) input:nth-of-type(4){
+    margin-top: 20px;
+    width: 255px;
+}
+
+form fieldset:nth-of-type(2) label:nth-of-type(4){
+    margin-left: 100px;
+}
+
+/*Tercer fieldset*/
+form fieldset:nth-of-type(3) label{
+    width: 80px;
+}
+
+form fieldset:nth-of-type(3) label:nth-of-type(1){
+    display:block;
+    width: 500px;
+}
+
+form fieldset:nth-of-type(3) input:nth-of-type(1){
+    display:inline-block;
+    margin-top: 10px;
+
+}
+
+form fieldset:nth-of-type(3) label:nth-of-type(2){
+    display: block;
+    margin-top: 15px;
+    width: 400px;
+}
+
+form fieldset:nth-of-type(3) input:nth-of-type(2){
+    display: inline-block;
+    margin-top: 10px;
+}
+
+/*Botones formulario*/
+form input:nth-last-of-type(1){
+    margin-bottom: 30px;
+}
+
+
 div#video{
     text-align: center;
 }

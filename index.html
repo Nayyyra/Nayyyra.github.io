@@ -44,10 +44,10 @@
             </ol>
         </nav>
         <ol class="header">
-            <li class="liheather"><a href="#seccion1"><b>¿Qué es la psicología?</b></a></li>
-            <li class="liheather"><a href="#seccion2"><b>¿Qué ramas de la psicología existen?</b></a></li>
-            <li class="liheather"><a href="#seccion3"><b>Enfermedades mentales más comunes y sus características</b></a></li>
-            <li class="liheather"><a href="#seccion4"><b>¿Qué diferencias hay entre psicología y psiquiatría?</b></a></li>
+            <li class="liheather"><a href="#seccion1">¿Qué es la psicología?</a></li>
+            <li class="liheather"><a href="#seccion2">¿Qué ramas de la psicología existen?</a></li>
+            <li class="liheather"><a href="#seccion3">Enfermedades mentales más comunes y sus características</a></li>
+            <li class="liheather"><a href="#seccion4">¿Qué diferencias hay entre psicología y psiquiatría?</a></li>
         </ol>
     </header>
     <main>
@@ -121,6 +121,44 @@
         </tr>
         </tbody>
     </table>
+
+           <h2 id="seccion5">Formulario:</h2>
+        <form action="#">
+            <caption>Si te interesa la psicología y quieres que te informemos de más novedades, rellena este
+                formulario con tus datos:</caption>
+            <fieldset>
+                <legend>Datos personales</legend>
+                <label for="nombre">Nombre:</label>
+                <input type="text" name="name" id="name" placeholder="Escriba aquí su nombre" required="required">
+                <label for="Surename">Apellidos:</label>
+                <input type="text" name="Surename" id="Surename" placeholder="Escriba aquí sus apellidos"
+                    required="required">
+                <label for="Years">Edad:</label>
+                <input type="number" name="Years" id="Years" required="required" min="1" max="120">
+            </fieldset>
+            <fieldset>
+                <legend>Datos de contacto</legend>
+                <label for="correo">Correo electrónico:</label>
+                <input type="email" name="correo" id="correo" placeholder="xxxxxxxx@gmail.com" required="required">
+                <label for="Telefono">Teléfono:</label>
+                <input type="number" name="Telefono" id="Telefono" placeholder="Escriba aquí su número de telefono"
+                    required="required">
+                <label for="Direccion">Dirección:</label>
+                <input type="text" name="Direccion" id="Direccion" placeholder="Escriba su dirección aquí">
+                <label for="CodPostal">Código postal:</label>
+                <input type="number" name="CodPostal" id="CodPostal" placeholder="Escriba aquí su código postal" max="5">
+            </fieldset>
+            <fieldset>
+                <legend>Otros datos</legend>
+                <label for="pregunta1">¿Cómo conoció esta página de información de psicología?</label>
+                <textarea name="pregunta1" id="pregunta1" placeholder="Escriba aquí"></textarea>
+                <label for="pregunta2">¿Qué es lo que más le interesa sobre la psicología?</label>
+                <textarea name="pregunta2" id="pregunta2" placeholder="Escriba aquí"></textarea>
+            </fieldset>
+            <input type="submit" name="enviar" id="enviar">
+            <input type="reset" name="borrar" id="borrar">
+
+        </form>
 
 
 

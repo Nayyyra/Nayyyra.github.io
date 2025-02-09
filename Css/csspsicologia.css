@@ -5,7 +5,93 @@
     font-style: normal;
 }
 
-body{
+/*INICIO MEDIA QUERY*/
+@media (min-width: 481px) {
+    nav:nth-of-type(1) {
+        display: block;
+    }
+
+    nav:nth-of-type(2) {
+        display: none;
+    }
+}
+
+@media (max-width:480px) {
+    body {
+        font-size: 12px;
+        padding: 10%;
+    }
+
+    /*NAV PC*/
+    nav:nth-of-type(1){
+        display: none;
+    }
+    
+    /*NAV MOVIL*/
+    nav:nth-of-type(2){
+        display: block;
+    }
+
+    nav:nth-of-type(2) ol.nav2 li.linav2{
+        display: block;
+        background-color:  rgb(102, 170, 233);;
+        border: 1px solid black;
+    }
+    
+    /*FIN NAVEGACIONES*/
+
+    h1 {
+        font-size: 24px;
+        text-align: center;
+    }
+
+    div#video iframe{
+        width: 100%;
+        height: 100%;
+    }
+
+    table {
+        border: 3px solid rgba(128, 128, 128, 0.582);
+        border-collapse: collapse;
+        font-size: 15px;
+    }
+
+    td,th {
+        text-align: center;
+        border: 3px solid rgba(128, 128, 128, 0.582);
+    }
+
+    form fieldset label {
+        display: block;
+        width: 100%;
+        text-align: left;
+        font-size: 15px;
+    }
+
+    form fieldset textarea {
+        display: block;
+        width: 30%;
+        text-align: left;
+    }
+
+    form fieldset {
+        width: 95%;
+        padding: 10px;
+    }
+
+    form input {
+        width: 100%;
+        margin-top: 10px;
+    }
+
+    footer p {
+        text-align: center;
+    }
+}
+
+/*FIN MEDIA QUERY*/
+
+body {
     border: 1px solid #000;
     width: 80%;
     margin: 0 auto;
@@ -15,20 +101,20 @@ body{
     font-family: "Outfit", sans-serif;
 }
 
-p{
-    font-family:comic 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+p {
+    font-family: comic 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
-figure{
+figure {
     text-align: center;
 }
 
-img{
+img {
     width: 30%;
     height: 20%;
 }
 
-li.linav{
+li.linav {
     display: inline-block;
     width: 25%;
     height: 30px;
@@ -41,42 +127,42 @@ li.linav{
     list-style: none;
 }
 
-table{
+table {
     border: 3px solid rgba(128, 128, 128, 0.582);
     border-collapse: collapse;
 }
 
-td{
-    text-align: center;
-    border: 3px solid  rgba(128, 128, 128, 0.582);
-}
-
-th{
+td {
     text-align: center;
     border: 3px solid rgba(128, 128, 128, 0.582);
 }
 
-h1{
+th {
+    text-align: center;
+    border: 3px solid rgba(128, 128, 128, 0.582);
+}
+
+h1 {
     padding-bottom: 2%;
     border-bottom: 5px solid rgb(102, 170, 233);
 }
 
-h2{
+h2 {
     color: black;
     text-decoration: underline solid black 3px;
     background-color: rgba(225, 146, 241, 0.922);
 }
 
-a{
+a {
     color: black;
     text-decoration: none;
 }
 
-a.enfermedades:hover{
-    background-color:rgb(66, 149, 243);
+a.enfermedades:hover {
+    background-color: rgb(66, 149, 243);
 }
 
-ol.heather{
+ol.heather {
     border: 1px solid #000;
     list-style: none;
     margin: 0 auto;
@@ -84,7 +170,7 @@ ol.heather{
     width: 100px;
 }
 
-ol.nav1{
+ol.nav1 {
     border: 1px solid #000;
     list-style: none;
     padding-left: 0%;
@@ -92,120 +178,124 @@ ol.nav1{
     height: 40px;
 }
 
-li.liheather{
+ol.nav1{
+    display: block;
+}
+
+li.liheather {
     color: black;
     font-weight: bold;
     list-style: none;
 }
 
-footer{
+footer {
     text-align: right;
 }
 
-li.linav:hover{
+li.linav:hover {
     background-color: rgb(83, 22, 215);
 }
 
-a.enlacesnav:hover{
+a.enlacesnav:hover {
     color: aliceblue;
 }
 
 /*Formulario*/
-fieldset{
+fieldset {
     border: 3px solid rgba(128, 128, 128, 0.582);
 }
 
-legend{
+legend {
     font-weight: bold;
 }
 
 /*Primer fieldset*/
-form fieldset:nth-of-type(1) label{
+form fieldset:nth-of-type(1) label {
     display: inline-block;
     width: 80px;
     padding-left: 100px;
 }
 
-form fieldset:nth-of-type(1) label:nth-of-type(2){
+form fieldset:nth-of-type(1) label:nth-of-type(2) {
     padding-left: 100px;
 }
 
-form fieldset:nth-of-type(1) label:nth-of-type(3){
+form fieldset:nth-of-type(1) label:nth-of-type(3) {
     padding-left: 100px;
     width: 50px;
 }
 
 /*Segundo fieldset*/
-form fieldset:nth-of-type(2) label{
+form fieldset:nth-of-type(2) label {
     width: 80px;
     padding-left: 100px;
 }
 
-form fieldset:nth-of-type(2) label:nth-of-type(2){
+form fieldset:nth-of-type(2) label:nth-of-type(2) {
     padding-left: 200px;
 }
 
-form fieldset:nth-of-type(2) label:nth-of-type(3){
+form fieldset:nth-of-type(2) label:nth-of-type(3) {
     padding-left: 100px;
 }
 
-form fieldset:nth-of-type(2) input:nth-of-type(2){
+form fieldset:nth-of-type(2) input:nth-of-type(2) {
     margin-top: 20px;
     width: 300px;
 }
 
-form fieldset:nth-of-type(2) input:nth-of-type(3){
+form fieldset:nth-of-type(2) input:nth-of-type(3) {
     margin-top: 20px;
     width: 236px;
 }
 
-form fieldset:nth-of-type(2) input:nth-of-type(4){
+form fieldset:nth-of-type(2) input:nth-of-type(4) {
     margin-top: 20px;
     width: 255px;
 }
 
-form fieldset:nth-of-type(2) label:nth-of-type(4){
+form fieldset:nth-of-type(2) label:nth-of-type(4) {
     margin-left: 100px;
 }
 
 /*Tercer fieldset*/
-form fieldset:nth-of-type(3) label{
+form fieldset:nth-of-type(3) label {
     width: 80px;
 }
 
-form fieldset:nth-of-type(3) label:nth-of-type(1){
-    display:block;
-    width: 500px;
+form fieldset:nth-of-type(3) label:nth-of-type(1) {
+    display: block;
+    width: 300px;
 }
 
-form fieldset:nth-of-type(3) input:nth-of-type(1){
-    display:inline-block;
+form fieldset:nth-of-type(3) input:nth-of-type(1) {
+    display: inline-block;
     margin-top: 10px;
 
 }
 
-form fieldset:nth-of-type(3) label:nth-of-type(2){
+form fieldset:nth-of-type(3) label:nth-of-type(2) {
     display: block;
     margin-top: 15px;
-    width: 400px;
+    width: 350px;
 }
 
-form fieldset:nth-of-type(3) input:nth-of-type(2){
+form fieldset:nth-of-type(3) input:nth-of-type(2) {
     display: inline-block;
     margin-top: 10px;
 }
 
 /*Botones formulario*/
-form input:nth-last-of-type(1){
+form input:nth-last-of-type(1) {
     margin-bottom: 30px;
 }
 
 
-div#video{
+div#video {
     text-align: center;
 }
 
-img#twitter{
+img#twitter {
     padding-top: 10px;
     display: block;
     width: 50px;

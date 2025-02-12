@@ -117,14 +117,16 @@ img {
 li.linav {
     display: inline-block;
     width: 25%;
-    height: 30px;
     padding-top: 10px;
+    vertical-align: middle;
     background-color: rgb(102, 170, 233);
     text-align: center;
     color: black;
-    font-size: 15px;
+    font-size: 16px;
     font-weight: bold;
     list-style: none;
+    min-height: 60px;
+
 }
 
 table {
@@ -174,8 +176,9 @@ ol.nav1 {
     border: 1px solid #000;
     list-style: none;
     padding-left: 0%;
+    width: 100%;
     margin-top: 0 auto;
-    height: 40px;
+    min-height: 40px;
 }
 
 ol.nav1{

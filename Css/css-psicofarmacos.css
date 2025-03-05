@@ -4,7 +4,56 @@
     font-style: normal;
 }
 
-body{
+@media (min-width: 481px) {
+    nav:nth-of-type(1) {
+        display: block;
+        width: 100%;
+    }
+
+    nav:nth-of-type(1) ol {
+        margin: 0 auto;
+        width: 100%;
+    }
+
+
+nav:nth-of-type(1) ol li {
+    height: 100%;
+    width: 25%;
+    font-size: 12px;
+    margin-left: 0;
+    min-width: 15px;
+    vertical-align: top;
+    padding-bottom: 10px;
+}
+
+nav:nth-of-type(2) {
+    display: none;
+}
+
+}
+@media (max-width:480px) {
+    header nav:nth-child(1) {
+        display: none;
+    }
+
+    header nav:nth-of-type(2) ol li {
+        display: block;
+        width: 200%;
+        border: 1px solid black;
+        padding: 0;
+    }
+
+    header nav:nth-of-type(2) ol {
+        display: block;
+        width: 40%;
+        border: none;
+
+    }
+
+
+}
+
+body {
     border: 1px solid #000;
     width: 80%;
     margin: 0 auto;
@@ -14,15 +63,15 @@ body{
     font-family: "Itim", cursive;
 }
 
-li.linav a{
+li.linav a {
     color: #000;
     text-decoration: none;
 }
 
-li.linav{
+li.linav {
     display: inline-block;
     width: 25%;
-    height: 30px;
+    height: 40px;
     padding-top: 10px;
     background-color: rgb(102, 170, 233);
     text-align: center;
@@ -30,33 +79,38 @@ li.linav{
     font-size: 15px;
     font-weight: bold;
     list-style: none;
+    padding-top: 10px;
+    vertical-align: middle;
+    min-height: 20px;
 }
 
-ol.nav1{
+ol.nav1 {
     border: 1px solid #000;
     list-style: none;
     padding-left: 0%;
     margin-top: 0 auto;
+    width: 100%;
+    margin-top: 0 auto;
 }
 
-li.linav:hover{
+li.linav:hover {
     background-color: rgb(83, 22, 215);
 }
 
-ol li a{
-    list-style:disc;
+ol li a {
+    list-style: disc;
     color: #000;
     text-decoration: none;
 }
 
-ol li{
-    list-style:disc;
+ol li {
+    list-style: disc;
 }
 
-header>ol li a:hover{
+header>ol li a:hover {
     background-color: rgb(66, 149, 243);
 }
 
-a.enlacesnav:hover{
+a.enlacesnav:hover {
     color: aliceblue;
 }

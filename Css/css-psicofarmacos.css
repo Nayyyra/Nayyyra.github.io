@@ -19,7 +19,6 @@
 nav:nth-of-type(1) ol li {
     height: 100%;
     width: 25%;
-    font-size: 12px;
     margin-left: 0;
     min-width: 15px;
     vertical-align: top;

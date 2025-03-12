@@ -1,6 +1,5 @@
 @font-face {
     font-family: "Outfit", sans-serif;
-    font-optical-sizing: auto;
     font-weight: 400;
     font-style: normal;
 }
@@ -102,7 +101,7 @@ body {
 }
 
 p {
-    font-family: comic 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-family: comic 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode';
 }
 
 figure {
@@ -177,7 +176,7 @@ ol.nav1 {
     list-style: none;
     padding-left: 0%;
     width: 100%;
-    margin-top: 0 auto;
+    margin-top: 0;
     min-height: 40px;
 }
 

@@ -97,6 +97,8 @@ body {
     padding: 5%;
     font-size: 18px;
     font-family: "Outfit", sans-serif;
+    word-spacing: 0.16em;
+    letter-spacing: 0.02em;
 }
 
 p {
@@ -159,7 +161,7 @@ a {
 }
 
 a.enfermedades:hover {
-    background-color: rgb(66, 149, 243);
+    background-color: #4295f3;
 }
 
 ol.heather {
@@ -194,11 +196,11 @@ footer {
 }
 
 li.linav:hover {
-    background-color: rgb(83, 22, 215);
+    background-color: #5316d7;
 }
 
 a.enlacesnav:hover {
-    color: aliceblue;
+    color: #f0f8ff;
 }
 
 /*Formulario*/

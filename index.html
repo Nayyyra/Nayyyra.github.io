@@ -37,13 +37,13 @@
 </script>
 </head>
 <body>
-    <header>
-        <nav>
+    <header id="top">
+        <nav role="navigation" aria-label="Navegación para pc">
             <ol class="nav1">
                 <li class="linav"><a href="./index.html" class="enlacesnav">Inicio</a></li><li class="linav"><a href="./Html/psicofarmacos.html" target="_blank" class="enlacesnav">Psicofármacos</a></li><li class="linav"><a href="./Enlaces/enlaces-de-interes.html" target="_blank" class="enlacesnav">Enlaces de interes</a></li><li class="linav"><a href="./Html/quieres-estudiar-psicologia.html" target="_blank" class="enlacesnav">¿Quieres estudiar psicología?</a></li>
             </ol>
         </nav>
-        <nav>
+        <nav role="navigation" aria-label="Navegación para movil">
             <ol class="nav2">
                 <li class="linav2"><a href="./index.html" class="enlacesnav2">Inicio</a></li><li class="linav2"><a href="./Html/psicofarmacos.html" target="_blank" class="enlacesnav2">Psicofármacos</a></li><li class="linav2"><a href="./Enlaces/enlaces-de-interes.html" target="_blank" class="enlacesnav2">Enlaces de interes</a></li><li class="linav2"><a href="./Html/quieres-estudiar-psicologia.html" target="_blank" class="enlacesnav2">¿Te gustaría estudiar psicología?</a></li>
             </ol>
@@ -56,7 +56,7 @@
             <li class="liheather"><a href="#seccion5">Formulario</a></li>
         </ol>
     </header>
-    <main>
+    <main role="main">
     <h1 tabIndex="0">Todo lo que debes saber sobre psicología</h1>
     <div id="video">
         <iframe width="560" height="315" src="https://www.youtube.com/embed/iASX6cu4GaQ?si=_cnNkOjklgEQTlipcontrols=0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; allowfullscreen"></iframe>
@@ -159,8 +159,8 @@
                 <textarea name="pregunta2" id="pregunta2" placeholder="Escriba aquí"></textarea>
             </fieldset>
             
-            <input type="submit" name="enviar" id="enviar">
-            <input type="reset" name="borrar" id="borrar">
+            <input type="submit" name="enviar" id="enviar" aria-label="Enviar formulario">
+            <input type="reset" name="borrar" id="borrar" aria-label="Borrar formulario">
 
         </form>
 
@@ -168,7 +168,7 @@
 
     </main>
     <footer>
-
+        <a href="#top" aria-label="Volver arriba">Volver arriba</a>
 
          <a href="https://x.com/intent/post?url=https://nayyyra.github.io"><img src="./Img/twitter-foto.jpg" alt="Logo de twitter" id="twitter"></a>
         <p tabIndex="0">&copy; Nayra Muñiz Becedas</p>
